@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/3/Pangrams.m"
+            timestampString = "575232654.012803"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "-pangrams:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Pangrams pangrams:]"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/3/Pangrams.m"
+                  timestampString = "575116190.122124"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Pangrams pangrams:]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/3/Pangrams.m"
+                  timestampString = "575116190.790397"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/4/Encryption.m"
+            timestampString = "575232654.012906"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-encryption:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Encryption encryption:]"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/4/Encryption.m"
+                  timestampString = "575125788.075981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "449">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Encryption encryption:]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/4/Encryption.m"
+                  timestampString = "575125788.778407"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "449">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/4/Encryption.m"
+            timestampString = "575232654.012966"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-encryption:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Encryption encryption:]"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/4/Encryption.m"
+                  timestampString = "575231443.855873"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Encryption encryption:]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/4/Encryption.m"
+                  timestampString = "575231444.7078151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/5/Sorted.m"
+            timestampString = "575232654.013024"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-sorted:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Sorted sorted:]"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575128986.286696"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Sorted sorted:]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575128987.234049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/5/Sorted.m"
+            timestampString = "575232654.0134979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "swapfunc"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swapfunc"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575134953.731302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swapfunc"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575134954.317835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/5/Sorted.m"
+            timestampString = "575232654.013841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "reverse"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575135537.026744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "1002">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575135537.559085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "1002">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/5/Sorted.m"
+            timestampString = "575232654.014173"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "reverse"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575134345.126861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575134346.257203"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/5/Sorted.m"
+            timestampString = "575232654.014505"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "reverse"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575133506.8873301"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "790">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575133507.67993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "790">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/5/Sorted.m"
+            timestampString = "575232654.0148309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "reverse"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575135219.958061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reverse"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575135220.6076649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/5/Sorted.m"
+            timestampString = "575232654.0151581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "swapfunc"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swapfunc"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575135560.958858"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swapfunc"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/5/Sorted.m"
+                  timestampString = "575135561.688802"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/2/Diagonal.m"
+            timestampString = "575232654.015483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-diagonalDifference:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Diagonal diagonalDifference:]"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/2/Diagonal.m"
+                  timestampString = "575228882.355619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Diagonal diagonalDifference:]"
+                  moduleName = "RSSchool_T1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/2/Diagonal.m"
+                  timestampString = "575228882.357787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "249">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Diagonal diagonalDifference:]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/2/Diagonal.m"
+                  timestampString = "575228883.490063"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Diagonal diagonalDifference:]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kasiama/ios/Tasks/Task1/RSSchool_T1/RSSchool_T1/Exercises/2/Diagonal.m"
+                  timestampString = "575228883.49264"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "249">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
