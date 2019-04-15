@@ -34,5 +34,19 @@
  09/04/2019 04:00
  09/04/2019 00:00
 */
-@interface DateMachine : UIViewController
+@interface DateMachine : UIViewController<UIPickerViewDataSource,UIPickerViewDelegate>
+@property (retain, nonatomic) IBOutlet UIButton *add;
+@property (retain, nonatomic) IBOutlet UIButton *sub;
+@property (retain, nonatomic) IBOutlet UITextField *step;
+@property (retain, nonatomic) IBOutlet UITextField *startDate;
+@property (retain, nonatomic) IBOutlet UITextField *dateUnit;
+@property (retain, nonatomic)NSArray *onecolumlist;
+@property (retain, nonatomic) NSDateFormatter* dateFormarter;
+@property (retain, nonatomic)NSDateComponents* calendarComponents;
+@property (retain, nonatomic)NSDate* components;
+@property (retain, nonatomic) IBOutlet UIPickerView *testPicker;
+
+@property (retain, nonatomic) IBOutlet UILabel *dateLabel;
+- (IBAction)touchStartDate;
+- (IBAction)changingStartdate;
 @end

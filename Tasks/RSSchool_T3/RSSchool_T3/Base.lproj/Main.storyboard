@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SxU-vT-57f">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date Machine-->
+        <scene sceneID="M4r-U7-UVh">
+            <objects>
+                <viewController id="SxU-vT-57f" customClass="DateMachine" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="09Z-2N-KJw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Add" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HoH-l5-W8M">
+                                <rect key="frame" x="20" y="492" width="145" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Start Date" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Start date" borderStyle="roundedRect" placeholder="Start date" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="wHI-xZ-lpG">
+                                <rect key="frame" x="20" y="236" width="339" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="changingStartdate" destination="SxU-vT-57f" eventType="editingChanged" id="1WY-3Z-WRf"/>
+                                    <action selector="touchStartDate" destination="SxU-vT-57f" eventType="touchDown" id="1wU-Dm-NoZ"/>
+                                    <outlet property="delegate" destination="SxU-vT-57f" id="KDT-b5-ykY"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Step" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Step" borderStyle="roundedRect" placeholder="Step" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="fvG-uu-WKt">
+                                <rect key="frame" x="20" y="277" width="339" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="editingStep" destination="SxU-vT-57f" eventType="editingChanged" id="HfE-kd-2bR"/>
+                                    <action selector="touchDownStep" destination="SxU-vT-57f" eventType="touchDown" id="hEe-gA-R37"/>
+                                    <outlet property="delegate" destination="SxU-vT-57f" id="WG4-pY-MVA"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Date Unit" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Date unit" borderStyle="roundedRect" placeholder="Date unit" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3CM-ud-Ke9">
+                                <rect key="frame" x="20" y="317" width="339" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="editingDateUnit" destination="SxU-vT-57f" eventType="editingChanged" id="Usq-N8-kmk"/>
+                                    <action selector="editingEndDateUnit" destination="SxU-vT-57f" eventType="editingDidEnd" id="3oG-jP-8Kg"/>
+                                    <action selector="touchDownDateUnit" destination="SxU-vT-57f" eventType="touchDown" id="maY-g6-0bD"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9f-3l-SjW">
+                                <rect key="frame" x="20" y="53" width="355" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hhh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AkG-J2-SGh">
+                                <rect key="frame" x="20" y="53" width="335" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Sub" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdh-ya-Cpq">
+                                <rect key="frame" x="210" y="492" width="145" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Sub">
+                                    <color key="titleColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YLJ-CM-Mco">
+                                <rect key="frame" x="20" y="358" width="335" height="91"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="SxU-vT-57f" id="CsB-Ce-L7E"/>
+                                    <outlet property="delegate" destination="SxU-vT-57f" id="Xk9-Z6-dUz"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wxA-Rk-lHb"/>
+                    </view>
+                    <connections>
+                        <outlet property="add" destination="HoH-l5-W8M" id="w4C-07-DMg"/>
+                        <outlet property="dateLabel" destination="AkG-J2-SGh" id="Wyb-L5-STY"/>
+                        <outlet property="dateUnit" destination="3CM-ud-Ke9" id="xnU-Iu-L1C"/>
+                        <outlet property="startDate" destination="wHI-xZ-lpG" id="oz5-We-uNt"/>
+                        <outlet property="step" destination="fvG-uu-WKt" id="Mqw-Z3-5S6"/>
+                        <outlet property="sub" destination="Vdh-ya-Cpq" id="uwx-7b-dyT"/>
+                        <outlet property="testPicker" destination="YLJ-CM-Mco" id="qDi-NV-gmT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5vA-sm-aKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="39.200000000000003" y="-32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>

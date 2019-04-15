@@ -21,6 +21,13 @@
  The order of images vs output lines is from left to right, from top to bottom.
  Note: trailing null nodes are omitted from the output.
  */
+@interface TreeNode : NSObject
+@property(assign,nonatomic)NSInteger val;
+@property(retain,nonatomic)TreeNode* left;
+@property(retain,nonatomic)TreeNode* right;
+-(id)initWhithInteger:(NSInteger)n;
+@end
+
 @interface FullBinaryTrees : NSObject
 - (NSString *)stringForNodeCount:(NSInteger)count;
 @end

@@ -178,7 +178,7 @@
 
   XCTAssertTrue(_app.staticTexts[@"10/09/2021 20:27"].exists);
 
-  [unitsCount tap];
+   [unitsCount tap];
   [unitsCount clearText];
   [unitsCount typeText:@"213"];
 
