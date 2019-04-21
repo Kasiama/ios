@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ED174FD2269414D003277A5 /* PhoneFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED174FC2269414D003277A5 /* PhoneFormatter.m */; };
 		BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B5522268ED9F0060BDF3 /* AppDelegate.m */; };
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5ED174FB2269414D003277A5 /* PhoneFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFormatter.h; sourceTree = "<group>"; };
+		5ED174FC2269414D003277A5 /* PhoneFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneFormatter.m; sourceTree = "<group>"; };
 		BD47B54E2268ED9F0060BDF3 /* RSSchool_T4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD47B5512268ED9F0060BDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD47B5522268ED9F0060BDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */,
 				BD47B5592268EDA10060BDF3 /* Info.plist */,
 				BD47B55A2268EDA10060BDF3 /* main.m */,
+				5ED174FB2269414D003277A5 /* PhoneFormatter.h */,
+				5ED174FC2269414D003277A5 /* PhoneFormatter.m */,
 			);
 			path = RSSchool_T4;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
+				5ED174FD2269414D003277A5 /* PhoneFormatter.m in Sources */,
 				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,12 +279,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CQZFRP8LD;
 				INFOPLIST_FILE = RSSchool_T4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "RSSchool.RSSchool-T4";
+				PRODUCT_BUNDLE_IDENTIFIER = KasiamaErat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,12 +297,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CQZFRP8LD;
 				INFOPLIST_FILE = RSSchool_T4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "RSSchool.RSSchool-T4";
+				PRODUCT_BUNDLE_IDENTIFIER = KasiamaErat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

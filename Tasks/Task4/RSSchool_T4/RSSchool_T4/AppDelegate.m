@@ -1,4 +1,5 @@
 #import "AppDelegate.h"
+#import "PhoneFormatter.h"
 
 @interface AppDelegate ()
 
@@ -8,8 +9,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+   UIWindow *win=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = win;
+    [win release];
+    UIViewController *root = [[PhoneFormatter alloc] init];
+    [self.window setRootViewController:root];
+    [root release];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -41,6 +46,9 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+-(void)dealloc{
+    [_window release];
+     [super dealloc];
+}
 
 @end
