@@ -55,8 +55,15 @@ bool is7Has2Space = NO;
 
 -(NSString*)formatphoneNumber:(NSString*)string{
    NSLog(@"taormat: %@", string);
-    if(string.length>0 && ([[string substringFromIndex:0] hasPrefix:@"7"] ||([[string substringFromIndex:1] hasPrefix:@"7"]&& [[string substringFromIndex:0] hasPrefix:@"+"])))
+    NSString *str = [string stringByReplacingOccurrencesOfString:@"+" withString:@""];
+    str = [str stringByReplacingOccurrencesOfString:@"(" withString:@""];
+      str = [str stringByReplacingOccurrencesOfString:@")" withString:@""];
+    
+    //if(string.length>0 && ([[string substringFromIndex:0] hasPrefix:@"7"] ||([[string substringFromIndex:1] //hasPrefix:@"7"]&& [[string substringFromIndex:0] hasPrefix:@"+"])))
+    if([str hasPrefix:@"7"]){
+        //[str autorelease];
         return [self formattedPhoneNumberwhith7:string];
+    }
     else
         return [self formattedPhoneNumberWhith39:string];
 }
